@@ -1,4 +1,14 @@
-//t
+/*
+
+Program: Car.java          Last Date of this Revision: April 5/2022 
+
+Purpose: extends and gets info from vehicle
+Author: Alisha Saadat, 
+School: CHHS
+Course: Computer Programming 30
+ 
+
+*/
 package vehicle;
 
 public abstract class Car extends Vehicle

@@ -1,3 +1,14 @@
+/*
+
+Program: Truck.java          Last Date of this Revision: April 5/2022 
+
+Purpose: extends and gets info from vehicle
+Author: Alisha Saadat, 
+School: CHHS
+Course: Computer Programming 30
+ 
+
+*/
 package vehicle;
 
 public class Truck extends Vehicle
