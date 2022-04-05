@@ -1,29 +1,25 @@
 package vehicle;
 
-public class Truck 
+public class Truck extends Vehicle
 {
+	private String Semi;
 	
-}
-public class Minivan extends Vehicle
-{
-	private String Odyssey;
-	
-	public Minivan(int ET, int seating, int doors, String Ody)
+	public Truck(int ET, int seating, int doors, String sem)
 	{
 		super(ET, seating, doors);
-		Odyssey = Ody;
+		Semi = sem;
 	}
-	public String getOdy()//Accessor method
+	public String getSem()//Accessor method
 	{
-		return Odyssey;
+		return Semi;
 	}
-	public void setOdy(String o)//Modifier method
+	public void setSem(String o)//Modifier method
 	{ 
-		Odyssey = o;
+		Semi = o;
 	}
 	
 	public String description()//print 
 	{
-		return Odyssey;
+		return Semi;
 	}
 }
