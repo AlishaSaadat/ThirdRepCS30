@@ -1,6 +1,6 @@
 /*
 
-Program: BreakAPlate.java          Last Date of this Revision: March 14/2022
+Program: BreakAPlate.java          Last Date of this Revision: March 14/2022 
 
 Purpose: Play game "Break a Plate". Press play and see if you win by breaking all three plates or don't win by breaking only 2.
 
