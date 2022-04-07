@@ -9,6 +9,8 @@ Course: Computer Programming 30
  
 
 */
+//Extends Vehicle
+//gets and sets info for minivan
 package vehicle;
 
 public class Minivan extends Vehicle

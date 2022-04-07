@@ -1,3 +1,17 @@
+/*
+
+Program: DriveVehicle.java          Last Date of this Revision: April 7/2022 
+
+Purpose: extends and gets info from vehicle
+Author: Alisha Saadat, 
+School: CHHS
+Course: Computer Programming 30
+ 
+
+*/
+//Tester call
+//asks user to choose a vehicle type or quit
+//prints out all from Car, Minivan, and truck with corresponding info with chosen vehicle
 package vehicle;
 
 import java.util.Scanner;

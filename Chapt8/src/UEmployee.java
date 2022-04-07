@@ -10,7 +10,8 @@ Course: Computer Programming 30
  
 
 */
-
+//Main class 
+//String firstname, lastname, and salary holds each one get and set
 public abstract class UEmployee 
 {
 	private String firstName, lastName;

@@ -10,6 +10,9 @@ Course: Computer Programming 30
  
 
 */
+//Extends Account to grab info for BuissnessAcct
+//grabs bal, fName, lName, str, city, st, zip
+//if money is less than 500 it will add $10 fee
 package Buisness;
 
 public class BusinessAcct extends Account

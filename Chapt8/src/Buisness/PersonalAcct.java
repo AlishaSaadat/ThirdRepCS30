@@ -10,6 +10,9 @@ Course: Computer Programming 30
  
 
 */
+//Extends Account to grab info for PersonalsAcct
+//grabs bal, fName, lName, str, city, st, zip
+//if money is less than 100 it will add $2 fee
 package Buisness;
 
 public class PersonalAcct extends Account

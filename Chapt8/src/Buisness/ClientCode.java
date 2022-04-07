@@ -9,7 +9,9 @@
 	Course: Computer Programming 30
 	 
 
-	*/
+*/
+//Tester call
+//prints out all from Personal and Buisness with corresponding info
 package Buisness;
 
 public class ClientCode 

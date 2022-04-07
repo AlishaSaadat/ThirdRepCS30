@@ -10,7 +10,10 @@ Course: Computer Programming 30
  
 
 */
-public class Faculty extends Staff
+//Extends staff to grab info for Faculty
+//String dname holds Dname get and set 
+public class Faculty extends Staff 
+
 {
 	private String DName;
 	

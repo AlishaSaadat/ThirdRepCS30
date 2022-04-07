@@ -10,6 +10,8 @@ Course: Computer Programming 30
  
 
 */
+//Extends Uemployee to grab info for staff
+//String jobtitle holds title get and set 
 public class Staff extends UEmployee
 {
 	private String title;

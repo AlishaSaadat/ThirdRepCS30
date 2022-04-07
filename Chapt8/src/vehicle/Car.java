@@ -9,6 +9,8 @@ Course: Computer Programming 30
  
 
 */
+//Extends Vehicle
+//gets and sets info for car
 package vehicle;
 
 public class Car extends Vehicle

@@ -1,6 +1,6 @@
 /*
 
-Program: Truck.java          Last Date of this Revision: April 5/2022 
+Program: Truck.java          Last Date of this Revision: April 7/2022 
 
 Purpose: extends and gets info from vehicle
 Author: Alisha Saadat, 
@@ -9,6 +9,8 @@ Course: Computer Programming 30
  
 
 */
+//Extends Vehicle
+//gets and sets info for truck
 package vehicle;
 
 public class Truck extends Vehicle
@@ -34,3 +36,4 @@ public class Truck extends Vehicle
 		return null;
 	}
 }
+

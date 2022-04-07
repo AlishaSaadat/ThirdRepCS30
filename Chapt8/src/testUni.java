@@ -10,7 +10,8 @@ Course: Computer Programming 30
  
 
 */
-
+//Tester call
+//prints out all from facutly,. Uemployee, and Staff with corresponding info
 public class testUni 
 {
 	public static void main(String[] args)
