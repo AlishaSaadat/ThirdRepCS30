@@ -11,7 +11,7 @@ Course: Computer Programming 30
 */
 package vehicle;
 
-public abstract class Car extends Vehicle
+public class Car extends Vehicle
 {
 	private String Tesla;
 	
@@ -31,7 +31,13 @@ public abstract class Car extends Vehicle
 	
 	public String description()//print 
 	{	
-		return Tesla;
+		return " jjkkklll " ;
 	}
+	
+/*	public String toString()
+	{
+		return "This car has 240 horse power";
+	}
+	*/
 }
 

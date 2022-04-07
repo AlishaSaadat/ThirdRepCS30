@@ -72,4 +72,10 @@ abstract class Vehicle {
 	 * post: A description of the car's typical use has been returned.
 	 */
 	 abstract String description();
+	 
+	 public String toString()
+		{
+			return "This vehicel has entertainment :" + 
+					entertainment;
+		}
 }

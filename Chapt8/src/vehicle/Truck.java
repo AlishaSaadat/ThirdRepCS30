@@ -31,6 +31,6 @@ public class Truck extends Vehicle
 	
 	public String description()//print 
 	{
-		return Semi;
+		return " ";
 	}
 }
