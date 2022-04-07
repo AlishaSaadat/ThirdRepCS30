@@ -75,7 +75,9 @@ abstract class Vehicle {
 	 
 	 public String toString()
 		{
-			return "This vehicel has entertainment :" + 
-					entertainment;
+			return "This vehicle has entertainment: " + 
+					entertainment + 
+					" and has " + seatingAmount +" seats" +
+					" also has " + door + " doors.";
 		}
 }

@@ -13,24 +13,24 @@ package vehicle;
 
 public class Truck extends Vehicle
 {
-	private String Semi;
+	private String truck;
 	
-	public Truck(int ET, int seating, int doors, String sem)
+	public Truck(int ET, int seating, int doors, String tr)
 	{
 		super(ET, seating, doors);
-		Semi = sem;
+		truck = tr;
 	}
-	public String getSem()//Accessor method
+	public String getTr()//Accessor method
 	{
-		return Semi;
+		return truck;
 	}
-	public void setSem(String o)//Modifier method
+	public void setTr(String o)//Modifier method
 	{ 
-		Semi = o;
+		truck = o;
 	}
-	
-	public String description()//print 
-	{
-		return " ";
+	@Override
+	String description() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 }

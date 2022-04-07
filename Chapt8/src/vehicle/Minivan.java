@@ -1,6 +1,6 @@
 /*
 
-Program: Minivan.java          Last Date of this Revision: April 5/2022 
+Program: Minivan.java          Last Date of this Revision: April 7/2022 
 
 Purpose: extends and gets info from vehicle
 Author: Alisha Saadat, 
@@ -13,24 +13,25 @@ package vehicle;
 
 public class Minivan extends Vehicle
 {
-	private String Odyssey;
+	private String minivan;
 	
-	public Minivan(int ET, int seating, int doors, String Ody)
+	public Minivan(int ET, int seating, int doors, String mini)
 	{
 		super(ET, seating, doors);
-		Odyssey = Ody;
+		minivan = mini;
 	}
-	public String getOdy()//Accessor method
+	public String getMini()//Accessor method
 	{
-		return Odyssey;
+		return minivan;
 	}
-	public void setOdy(String o)//Modifier method
+	public void setMini(String o)//Modifier method
 	{ 
-		Odyssey = o;
+		minivan = o;
+	}
+	@Override
+	String description() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
-	public String description()//print 
-	{
-		return Odyssey;
-	}
 }

@@ -1,6 +1,6 @@
 /*
 
-Program: Car.java          Last Date of this Revision: April 5/2022 
+Program: Car.java          Last Date of this Revision: April 7/2022 
 
 Purpose: extends and gets info from vehicle
 Author: Alisha Saadat, 
@@ -13,26 +13,27 @@ package vehicle;
 
 public class Car extends Vehicle
 {
-	private String Tesla;
+	private String car;
 	
-	public Car(int ET, int seating, int doors, String tes)
+	public Car(int ET, int seating, int doors, String ca)
 	{
 		 super(ET, seating, doors);
-		 Tesla = tes;
+		 car = ca;
 	}
-	public String getTes()//Accessor method
+	public String getcar()//Accessor method
 	{
-		return Tesla;
+		return car;
 	}
-	public void setTes(String o)//Modifier method
+	public void setcar(String o)//Modifier method
 	{ 
-		Tesla = o;
+		car = o;
+	}
+	@Override
+	String description() {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
-	public String description()//print 
-	{	
-		return " jjkkklll " ;
-	}
 	
 /*	public String toString()
 	{
