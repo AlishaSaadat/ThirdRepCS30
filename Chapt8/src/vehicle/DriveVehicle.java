@@ -43,3 +43,28 @@ public class DriveVehicle
 		
 	}
 }
+/* Screen Dump
+
+
+Car\Minivan\Truck\Quit
+Enter choice: 
+c
+This vehicle has entertainment: 2 and has 5 seats also has 4 doors.
+
+Car\Minivan\Truck\Quit
+Enter choice: 
+t
+This vehicle has entertainment: 1 and has 2 seats also has 2 doors.
+
+Car\Minivan\Truck\Quit
+Enter choice: 
+m
+This vehicle has entertainment: 2 and has 8 seats also has 4 doors.
+
+Car\Minivan\Truck\Quit
+Enter choice: 
+
+q
+
+
+ */
