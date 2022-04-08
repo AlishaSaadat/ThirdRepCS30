@@ -1,0 +1,18 @@
+1)has-a: extending class from different class (ex. staff extends uemployee)
+	is-a: extending class from a childclass (ex. faculty extends staff)
+2) Both will be available to the childclass.
+3) Abstract method does not have a body but has an official statement. 
+	Abstract method called in abstract class and sued in childclass. 
+	Overriding redefines called and used method from parent to childclass.
+4) Abstract class must be called to use the methods in the childclass. 
+	Interface cannot be called but the methods can be used in different classes. 
+6a) All methods are public and abstract.
+6b) "Wo" is an interface.
+6c) The "doThat()" method is called in "Roo" because the methods must be 
+	defined in the class that calls the method's interface.
+6d) "doThis()","doNow()","doThat()" = available
+6e) "doThis()" used in "Roo" overides "doThis()" in "Bo".
+6f) "super(1)" in "Roo" uses the value 1 for the "x" variable in "Bo"
+6g) Yes, "doThis()" method in "Bo" can converse with "Roo" object - if "Roo" object
+	calls a "Bo" object.
+6h) Yes "Roo" method can use "doThis()" method and call from "Bo" by "super".
